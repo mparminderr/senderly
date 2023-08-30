@@ -1,0 +1,34 @@
+
+:root{
+  --primary-color:#FFFFFF;
+  --secondary-color:#0995F1;
+  --color-light:#BFDCFF
+}
+body{
+  background: #100e31 !important;
+  font-family: Inter, sans-serif;
+}
+.color-primary{
+  color: var(--primary-color);
+}
+.color-secondary{
+  color:var(--secondary-color)
+}
+.color-light{
+  color: var(--color-light);
+}
+html,body, #root,.app{
+  height: 100%;
+}
+.main-section{
+  height: min-content !important;
+}
+.right-footer-list , .left-footer-list{
+  align-self: flex-start;
+}
+footer{
+  border-top: solid 1px #8ac7ff30;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  /*outline-offset: -1px;*/
+}
