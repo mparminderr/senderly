@@ -3,11 +3,11 @@
 #Follow steps to run the project
 
 
-&ensp;1. After cloning repository and through terminal/cmd reaching in project directory, run npm install
+&ensp;1. After cloning repository and through terminal/cmd reaching in project directory, run ```npm install```
 
 
 &ensp;2. run ```
-     npm install
+     npm run start
     ```
 
 Initial look for 14.6 inch screen to noraml laptop screen sizes
