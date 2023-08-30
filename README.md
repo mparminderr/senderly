@@ -5,6 +5,7 @@
 
 &ensp;1. After cloning repository and through terminal/cmd reaching in project directory, run npm install
 
+
 &ensp;2. run ```
  &ensp;       npm install
 &ensp;       ```
