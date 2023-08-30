@@ -9,6 +9,7 @@
 &ensp;2. run ```
      npm install
     ```
+
 Initial look for 14.6 inch screen to noraml laptop screen sizes
 
 
