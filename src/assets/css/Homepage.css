@@ -290,6 +290,18 @@ input[type="text"]::placeholder {
   background-size: auto;
   /*margin: auto;*/
 }
+.introduction-shine{
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 77% 50%, #ffffff 10%, transparent 70%) !important;
+  opacity: 0.6;
+  position: absolute;
+  content: "";
+  top: 0%;
+  left: 0%;
+  /*border-radius: 50%;*/
+  /*right: 90%;*/
+}
 .circle {
   width: 355px;
   background-image: linear-gradient(226.1deg, #85a7fe4f 100%, #85a0fe00 100%);
@@ -300,6 +312,16 @@ input[type="text"]::placeholder {
   background-size: auto;
   height: 355px;
   border-radius: 50%;
+  animation: spin 10s linear infinite;
+  transform-style: preserve-3d;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .icons {
   position: absolute;
@@ -315,6 +337,16 @@ input[type="text"]::placeholder {
   background-repeat: no-repeat;
   background-size: auto;
   z-index: 30;
+  /*animation: backwardSpin 8s linear infinite;*/
+  /*transform-style: preserve-3d;*/
+}
+@keyframes backwardSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .icons-bottom-left {
   left: 10%;
@@ -604,5 +636,20 @@ input[type="text"]::placeholder {
   .e-mail-form {
     width: 100%;
     padding: 1rem;
+  }
+}
+.arrow-up {
+  transform: scale(0);
+  transform-origin: bottom;
+}
+.arrow-up-animation {
+  animation: arrowUp 1s linear forwards;
+}
+@keyframes arrowUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
   }
 }
