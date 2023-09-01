@@ -42,25 +42,29 @@ const Homepage = () => {
             </p>
           </div>
         </div>
-        <div className={"introduction flex flex-col mt-16 pl-12 relative"}>
-          <div className={"absolute back-content"}></div>
-          <p className={"color-primary text-5xl font-thin "}>
-            Simplify the buying
-          </p>
-          <p className={"color-primary text-5xl font-thin mt-4"}>
-            process with conversations
-          </p>
-          <p className={"color-primary text-5xl font-thin mt-4"}>
-            that <i className={"color-secondary"}>convert</i>
-          </p>
-          <div className={"meta-text mt-10"}>
-            <p className={"color-light"}>
-              The #1 text-to-buy application for D2C brands who want to
+        <div className={"introduction flex flex-col mt-16 pl-12 relative top-0 left-0 z-50"}>
+
+          <div className={"flex flex-col head-wrapper relative z-20"}>
+            {/*<div className={"introduction-shine z-10"}></div>*/}
+            <p className={"color-primary text-5xl font-thin "}>
+              Simplify the buying process
             </p>
-            <p className={"color-light mt-1"}>
-              drive more revenue, increase order frequency and AOV.
+            <p className={"color-primary text-5xl font-thin mt-4"}>
+              with conversations that
             </p>
+            <p className={"color-primary text-5xl font-thin mt-4"}>
+               <i className={"color-secondary"}>convert</i>
+            </p>
+            <div className={"meta-text mt-10"}>
+              <p className={"color-light"}>
+                The #1 text-to-buy application for D2C brands who want to
+              </p>
+              <p className={"color-light mt-1"}>
+                drive more revenue, increase order frequency and AOV.
+              </p>
+            </div>
           </div>
+
         </div>
         <div
           className={
@@ -130,11 +134,12 @@ const Homepage = () => {
               Discover the intuitive and user-friendly power of
             </p>
             <p className={"color-light mt-1"}>
-              Senderly, with its Google-like search interface.
-              <p className={"color-light mt-1"}>
-                Experience the ease of typing a question and obtaining a
-              </p>
+              Senderly, with its Google-like search interface.{" "}
             </p>
+            <p className={"color-light mt-1"}>
+              Experience the ease of typing a question and obtaining a
+            </p>
+
             <p className={"color-light mt-1"}>
               comprehensive,customized report tailored just for you
             </p>

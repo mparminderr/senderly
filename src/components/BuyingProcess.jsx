@@ -1,7 +1,69 @@
 import arrowUp from "../assets/Line.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { useEffect, useRef, useState } from "react";
 const BuyingProcess = () => {
+  const elementRef = useRef(null);
+  const elementRef2 = useRef(null);
+  const [isInViewport, setIsInViewport] = useState(false);
+  const [number, setNumber] = useState(0);
+  const [number2, setNumber2] = useState(0);
+  let intervalId = null;
+  const targetNumber = 93;
+  const targetNumber2 = 45;
+  useEffect(() => {
+    const options = {
+      root: null, // Use the viewport as the root
+      rootMargin: "0px", // No margin around the viewport
+      threshold: 0.5, // Trigger when at least 50% of the element is visible
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setIsInViewport(true);
+          // eslint-disable-next-line
+          observer.unobserve(elementRef.current);
+        }
+      });
+    }, options);
+    // eslint-disable-next-line
+    if (elementRef.current) {
+      observer.observe(elementRef.current);
+    }
+
+    return () => {
+      // eslint-disable-next-line
+      if (elementRef.current) {
+        // eslint-disable-next-line
+        observer.unobserve(elementRef.current);
+      }
+      clearInterval(intervalId);
+    };
+    // eslint-disable-next-line
+  }, []);
+  useEffect(() => {
+    if (isInViewport) {
+      elementRef.current.classList.add("arrow-up-animation");
+      elementRef2.current.classList.add("arrow-up-animation");
+      let currentNumber = 0;
+      let currentNumber2 = 0;
+      // eslint-disable-next-line
+      intervalId = setInterval(() => {
+        currentNumber += 1;
+        currentNumber2 += 1;
+        if (currentNumber2 >= targetNumber2) {
+          currentNumber2 = targetNumber2;
+        }
+        if (currentNumber >= targetNumber) {
+          clearInterval(intervalId);
+          currentNumber = targetNumber;
+        }
+        setNumber(currentNumber);
+        setNumber2(currentNumber2);
+      }, 10);
+    }
+  }, [isInViewport]);
   return (
     <section className={"buying-process mt-24 relative pl-12"}>
       <p
@@ -129,12 +191,20 @@ const BuyingProcess = () => {
               They respond to place an order. It's really that simple
             </p>
           </div>
-          <div className={"percentages flex flex-row mt-14"}>
+          <div
+            id={"percentage-area"}
+            className={"percentages flex flex-row mt-14"}
+          >
             <div className={"percent-1 w-1/4 flex flex-row"}>
-              <img src={arrowUp} alt={"arrow"} />
+              <img
+                ref={elementRef}
+                src={arrowUp}
+                alt={"arrow"}
+                className={"arrow-up"}
+              />
               <div className={"percent-data flex flex-col ml-8"}>
                 <p className={"percent-value color-secondary text-3xl italic"}>
-                  93%
+                  {number}%
                 </p>
                 <p className={"percent-value color-primary text-xl mt-1"}>
                   Open Rate
@@ -149,10 +219,15 @@ const BuyingProcess = () => {
               </div>
             </div>
             <div className={"percent-1 flex flex-row"}>
-              <img src={arrowUp} alt={"arrow"} />
+              <img
+                src={arrowUp}
+                alt={"arrow"}
+                ref={elementRef2}
+                className={"arrow-up"}
+              />
               <div className={"percent-data flex flex-col ml-8"}>
                 <p className={"percent-value color-secondary text-3xl italic"}>
-                  45%
+                  {number2}%
                 </p>
                 <p className={"percent-value color-primary text-xl mt-1"}>
                   Response Times
