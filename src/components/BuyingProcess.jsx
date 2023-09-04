@@ -65,7 +65,7 @@ const BuyingProcess = () => {
     }
   }, [isInViewport]);
   return (
-    <section className={"buying-process mt-24 relative pl-12"}>
+    <section className={"buying-process mt-24 relative"}>
       <p
         className={
           "text-4xl w-full buying-process-head color-primary font-thin text-center"
@@ -176,26 +176,21 @@ const BuyingProcess = () => {
 
         <div className={"text-to-buy w-full flex flex-col pl-56"}>
           <div className={"about-text-to-buy-text flex flex-col"}>
-            <p className="text-left text-to-buy text-left-head text-3xl color-secondary">
+            <p className="text-left text-to-buy text-left-head text-4xl color-secondary">
               <i>Text To Buy</i>
             </p>
-            <p className={"text-sm light-text font-thin font-16"}>
+            <p className={"text-to-buy-main light-text font-thin font-18"}>
               A frictionless checkout experience that turns every phone number
-              into a card on file.
-            </p>
-            <p className={"text-sm light-text font-thin font-16"}>
-              Send customers texts about new releases, exclusive offers and
-              subscriptions
-            </p>
-            <p className={"text-sm light-text font-thin font-16"}>
-              They respond to place an order. It's really that simple
+              into a card on file. Send customers texts about new releases,
+              exclusive offers and subscriptions. They respond to place an
+              order. It's really that simple
             </p>
           </div>
           <div
             id={"percentage-area"}
             className={"percentages flex flex-row mt-14"}
           >
-            <div className={"percent-1 w-1/4 flex flex-row"}>
+            <div className={"percent-1  flex flex-row"}>
               <img
                 ref={elementRef}
                 src={arrowUp}
@@ -218,7 +213,7 @@ const BuyingProcess = () => {
                 </p>
               </div>
             </div>
-            <div className={"percent-1 flex flex-row"}>
+            <div className={"percent-1 percentage-2 flex flex-row"}>
               <img
                 src={arrowUp}
                 alt={"arrow"}
@@ -242,7 +237,7 @@ const BuyingProcess = () => {
               </div>
             </div>
           </div>
-          <div className={"mt-14 flex flex-col"}>
+          <div className={"mt-14 flex flex-col about-lists-wrapper"}>
             <div className={"about-lists"}>
               <ul>
                 <li className={""}>

@@ -5,7 +5,7 @@ import icon4 from "../assets/iconImage4.svg";
 
 const SeamlessIcons = () => {
   return (
-    <section className={"seamless mt-24 relative pl-12 pr-12"}>
+    <section className={"seamless mt-24 relative"}>
       <div className={"seamless-wrapper flex flex-row"}>
         <div className={"seamless-heading flex justify-center flex-col "}>
           <p className={"color-primary text-4xl font-thin "}>

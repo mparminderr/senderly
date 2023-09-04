@@ -3,7 +3,7 @@ import IncreaseChart from "../assets/IncreaseChart";
 
 const BuildingInsights = () => {
   return (
-    <section className={"mt-24 flex flex-row building-insights pl-12 pr-12"}>
+    <section className={"mt-24 flex flex-row building-insights"}>
       <div
         className={"building-insights-image flex flex-col min-w-min min-h-min"}
       >

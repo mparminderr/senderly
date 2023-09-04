@@ -22,53 +22,40 @@ const Homepage = () => {
           }
         >
           <p className={"color-primary text-3xl font-thin "}>
-            Simplify the buying process
-          </p>
-          <p className={"color-primary text-3xl font-thin mt-4"}>
-            with conversations
-          </p>
-          <p className={"color-primary text-3xl font-thin mt-4"}>
-            that <i className={"color-secondary"}>convert</i>
+            Simplify the buying process with conversations that{" "}
+            <i className={"color-secondary"}>convert</i>
           </p>
           <div className={"meta-text mt-6"}>
             <p className={"color-light"}>
-              The #1 text-to-buy application for D2C
-            </p>
-            <p className={"color-light mt-1"}>
-              brands who want to drive more revenue,
-            </p>
-            <p className={"color-light mt-1"}>
-              increase order frequency and AOV.
+              The #1 text-to-buy application for D2C brands who want to drive
+              more revenue, increase order frequency and AOV.
             </p>
           </div>
-        </div>
-        <div className={"introduction flex flex-col mt-16 pl-12 relative top-0 left-0 z-50"}>
-
-          <div className={"flex flex-col head-wrapper relative z-20"}>
-            {/*<div className={"introduction-shine z-10"}></div>*/}
-            <p className={"color-primary text-5xl font-thin "}>
-              Simplify the buying process
-            </p>
-            <p className={"color-primary text-5xl font-thin mt-4"}>
-              with conversations that
-            </p>
-            <p className={"color-primary text-5xl font-thin mt-4"}>
-               <i className={"color-secondary"}>convert</i>
-            </p>
-            <div className={"meta-text mt-10"}>
-              <p className={"color-light"}>
-                The #1 text-to-buy application for D2C brands who want to
-              </p>
-              <p className={"color-light mt-1"}>
-                drive more revenue, increase order frequency and AOV.
-              </p>
-            </div>
-          </div>
-
         </div>
         <div
           className={
-            "e-mail-form sm:p-2 relative flex lg:justify-end lg:pr-12 lg:pl-12 m-auto lg:mr-0"
+            "introduction flex flex-col mt-16 relative top-0 left-0 z-50"
+          }
+        >
+          {/*<div className={"flex flex-col head-wrapper relative z-20"}>*/}
+          {/*<div className={"introduction-shine z-10"}></div>*/}
+          <p className={"color-primary text-5xl font-thin "}>
+            Simplify the buying process with conversations that{" "}
+            <i className={"color-secondary"}>convert</i>
+          </p>
+
+          <div className={"meta-text mt-10"}>
+            <p className={"color-light"}>
+              The #1 text-to-buy application for D2C brands who want to drive
+              more revenue, increase order frequency and AOV.
+            </p>
+            <p className={"color-light mt-1"}></p>
+          </div>
+          {/*</div>*/}
+        </div>
+        <div
+          className={
+            "e-mail-form sm:p-2 relative flex lg:justify-end m-auto lg:mr-0"
           }
         >
           <img
@@ -82,12 +69,11 @@ const Homepage = () => {
               <div className={"form-meta-info"}>
                 <p className={"color-primary head-text"}>
                   Be one of the{" "}
-                  <i className={"color-secondary"}>first brands who</i>
-                </p>
-                <p className={"color-primary head-text"}>
-                  {" "}
-                  <i className={"color-secondary"}>makes it is</i> to buy with{" "}
-                  <i>SMS</i>
+                  <i className={"color-secondary"}>
+                    first brands who makes it is
+                  </i>{" "}
+                  to buy with
+                  <i> SMS</i>
                 </p>
               </div>
               <form className="w-full mb-4 mt-8">
