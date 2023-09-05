@@ -108,26 +108,42 @@ const Homepage = () => {
       <BuyingProcess />
       <Seamless />
       <BuildingInsights />
-      <section className={"pl-12 flex flex-row ai-power mt-24 pr-12"}>
-        <div className={"seamless-heading flex justify-center flex-col "}>
+      <section className={"flex flex-row ai-power mt-24 "}>
+        <div
+          className={
+            "seamless-heading introduction flex justify-center flex-col "
+          }
+        >
           <p className={"color-primary text-4xl font-thin "}>
             Unleash the <i className={"color-secondary"}>power</i> of{" "}
             <i className={"color-secondary"}>AI</i>
           </p>
 
-          <div className={"seamless-meta-text mt-8"}>
+          <div className={"seamless-meta-text meta-text mt-8"}>
             <p className={"color-light"}>
-              Discover the intuitive and user-friendly power of
+              Discover the intuitive and user-friendly power of Senderly, with
+              its Google-like search interface. Experience the ease of typing a
+              question and obtaining a comprehensive,customized report tailored
+              just for you
             </p>
-            <p className={"color-light mt-1"}>
-              Senderly, with its Google-like search interface.{" "}
-            </p>
-            <p className={"color-light mt-1"}>
-              Experience the ease of typing a question and obtaining a
-            </p>
+          </div>
+        </div>
+        <div
+          className={
+            "seamless-heading introduction-md flex justify-center flex-col "
+          }
+        >
+          <p className={"color-primary text-3xl font-thin "}>
+            Unleash the <i className={"color-secondary"}>power</i> of{" "}
+            <i className={"color-secondary"}>AI</i>
+          </p>
 
-            <p className={"color-light mt-1"}>
-              comprehensive,customized report tailored just for you
+          <div className={"seamless-meta-text meta-text mt-8"}>
+            <p className={"color-light"}>
+              Discover the intuitive and user-friendly power of Senderly, with
+              its Google-like search interface. Experience the ease of typing a
+              question and obtaining a comprehensive,customized report tailored
+              just for you
             </p>
           </div>
         </div>
@@ -145,12 +161,19 @@ const Homepage = () => {
         <img src={senderlyBetter} className={"-mt-2"} alt={"senderly-better"} />
       </section>
       <section className={"pl-2 flex flex-col senderly-better-mobile"}>
-        <p className={"color-primary text-4xl font-thin text-center"}>
-          Where Senderly is <i className={"color-secondary"}>better</i> than
-        </p>
-        <p className={"color-primary text-4xl font-thin text-center"}>
-          everyone else:
-        </p>
+        <div className={"introduction"}>
+          <p className={"color-primary text-4xl font-thin text-center"}>
+            Where Senderly is <i className={"color-secondary"}>better</i> than
+            everyone else:
+          </p>
+        </div>
+
+        <div className={"introduction-md"}>
+          <p className={"color-primary text-4xl font-thin text-center"}>
+            Where Senderly is <i className={"color-secondary"}>better</i> than
+            everyone else:
+          </p>
+        </div>
         <img
           src={senderlyBetterMobile}
           className={"-mt-2"}
