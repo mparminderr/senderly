@@ -4,11 +4,11 @@ import stars2 from "../assets/stars.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import "../assets/css/Homepage.css";
-import aiPowerImage from "../assets/askSenderly.png";
+import aiPowerImage from "../assets/askSenderlyDesktop.svg";
 import BuyingProcess from "../components/BuyingProcess";
 import Seamless from "../components/Seamless";
-import senderlyBetter from "../assets/senderlyBetter.png";
-import senderlyBetterMobile from "../assets/mobile_better_senderly.png";
+import senderlyBetter from "../assets/tableDesktop.svg";
+import senderlyBetterMobile from "../assets/tableMobile.svg";
 import BuildingInsights from "../components/BuildingInsights";
 
 const Homepage = () => {
