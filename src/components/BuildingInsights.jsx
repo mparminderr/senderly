@@ -122,7 +122,7 @@ const BuildingInsights = () => {
           <i className={"color-secondary"}>building insights</i>
         </p>
 
-        <div className={"seamless-meta-text meta-text mt-8"}>
+        <div className={"seamless-meta-text seamless-m meta-text mt-8"}>
           <p className={"color-light"}>
             Our AI-powered platform will continuously optimize your text-to-buy
             campaigns for the highest conversion rate. T he more data it

@@ -35,7 +35,7 @@ const SeamlessIcons = () => {
             <i className={"color-secondary"}>Klavio</i> and more
           </p>
 
-          <div className={"seamless-meta-text meta-text mt-8"}>
+          <div className={"seamless-meta-text seamless-m  meta-text mt-8"}>
             <p className={"color-light"}>
               Integration is quick and painless through a white glove.
               onboarding that unlocks the full capabilities of text to

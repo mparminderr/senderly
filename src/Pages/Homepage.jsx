@@ -138,7 +138,7 @@ const Homepage = () => {
             <i className={"color-secondary"}>AI</i>
           </p>
 
-          <div className={"seamless-meta-text meta-text mt-8"}>
+          <div className={"seamless-meta-text seamless-m meta-text mt-8"}>
             <p className={"color-light"}>
               Discover the intuitive and user-friendly power of Senderly, with
               its Google-like search interface. Experience the ease of typing a
