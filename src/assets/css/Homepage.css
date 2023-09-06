@@ -782,6 +782,12 @@ input[type="text"]::placeholder {
   .introduction p:first-child {
     width: 70% !important;
   }
+  .text-to-buy-main{
+    width: 60%;
+  }
+  .seamless-meta-text{
+    justify-content: flex-start !important;
+  }
 }
 @media screen and (max-width: 1900px) {
   .introduction p:first-child {
@@ -789,6 +795,9 @@ input[type="text"]::placeholder {
   }
   .text-to-buy-main {
     width: 70% !important;
+  }
+  .seamless-meta-text{
+    justify-content: flex-start !important;
   }
 }
 @media screen and (max-width: 1700px) {
@@ -845,6 +854,9 @@ input[type="text"]::placeholder {
   }
 }
 @media screen and (max-width: 987px) {
+  .seamless-m{
+    justify-content: center !important;
+  }
   .ai-power {
     flex-direction: column;
   }
