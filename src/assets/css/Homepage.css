@@ -69,11 +69,13 @@ input[type="text"]::placeholder {
   height: min-content;
 }
 .mobile-img {
+  display: flex;
+  flex-direction: column;
   position: relative;
   width: 354px;
   height: 701.4481px;
-  align-items: flex-start;
-  gap: 36.2045px;
+  /*align-items: flex-start;*/
+  /*gap: 36.2045px;*/
   padding: 56.3182px 47.1233px 56.3182px 47.1234px;
   outline: solid 10.2238px #0692f0;
   border-radius: 43.0722px;
@@ -82,6 +84,8 @@ input[type="text"]::placeholder {
   background-repeat: no-repeat;
   background-size: auto;
   margin-top: 2%;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .mobile-notch {
   position: absolute;
@@ -94,19 +98,19 @@ input[type="text"]::placeholder {
 }
 
 .msg-5 {
-  position: absolute;
+  /*position: absolute;*/
   left: 6.5% !important;
   top: 74% !important;
   display: flex;
 }
 .msg-4 {
-  position: absolute;
+  /*position: absolute;*/
   left: 6.5% !important;
   top: 53% !important;
   display: flex;
 }
 .msg-1 {
-  position: absolute;
+  /*position: absolute;*/
   left: 6.5%;
   display: flex;
   top: 12%;
@@ -172,7 +176,7 @@ input[type="text"]::placeholder {
 }
 .msg-3 {
   display: flex;
-  position: absolute;
+  /*position: absolute;*/
   left: 6.5%;
   top: 55%;
   width: min-content;
@@ -183,7 +187,7 @@ input[type="text"]::placeholder {
 }
 .msg-2 {
   display: flex;
-  position: absolute;
+  /*position: absolute;*/
   left: 56%;
   top: 38%;
   width: min-content;
@@ -191,6 +195,7 @@ input[type="text"]::placeholder {
   flex-direction: column;
   align-items: flex-end;
   gap: 5.7468px;
+  align-self: flex-end;
 }
 .msg-2_1 {
   width: 127.5779px;
@@ -782,21 +787,27 @@ input[type="text"]::placeholder {
   .introduction p:first-child {
     width: 70% !important;
   }
-  .text-to-buy-main{
+  .text-to-buy-main {
     width: 60%;
   }
-  .seamless-meta-text{
+  .seamless-meta-text {
     justify-content: flex-start !important;
   }
+  /*.seamless-head{*/
+  /*  align-items: center !important;*/
+  /*}*/
 }
 @media screen and (max-width: 1900px) {
+  /*.seamless-head{*/
+  /*  align-items: center !important;*/
+  /*}*/
   .introduction p:first-child {
     width: 80% !important;
   }
   .text-to-buy-main {
     width: 70% !important;
   }
-  .seamless-meta-text{
+  .seamless-meta-text {
     justify-content: flex-start !important;
   }
 }
@@ -854,7 +865,7 @@ input[type="text"]::placeholder {
   }
 }
 @media screen and (max-width: 987px) {
-  .seamless-m{
+  .seamless-m {
     justify-content: center !important;
   }
   .ai-power {

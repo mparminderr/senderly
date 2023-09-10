@@ -75,88 +75,89 @@ const BuyingProcess = () => {
       </p>
       <div className={"flex buying-process mt-12"}>
         <div className={"mobile-wrapper relative"}>
-          <div className="msg-1">
-            <div className="msg-wrapper">
-              <div className="flex msg-wrapper-lvl-2">
-                <div className="flex main-msg-class">
-                  <div className="flex after-shine">
-                    <div className="flex another-wrapper">
-                      <div className="message-wrapper">
-                        <p className="color-light">
-                          Hey Michael! Our limited edition cookies cream protein
-                          powder just dropped and is available exclusively to
-                          our text subscribers for $34.Reply with the # of bags
-                          to place your order! (1,2,3,etc)
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="msg-time">11:26am</div>
-          </div>
-          {/*  message 2*/}
-          <div className="msg-2">
-            <div className="msg-2_1">
-              <div className="msg-2_2">
-                <div className="msg_3664">
-                  <div className="msg2_3674">
-                    <div className="msg2_3680">
-                      <div className="msg2_3686">
-                        <p className="msg2_3694">
-                          <span className="_label87_2g1j2_3709">
-                            I`ll take 3 bags
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="msg-time">11:26am</div>
-          </div>
-          <div className="flex msg-1 msg-4">
-            <div className="flex msg-wrapper">
-              <div className="flex msg-wrapper-lvl-2">
-                <div className="flex main-msg-class">
-                  <div className="flex after-shine">
-                    <div className="flex another-wrapper">
-                      <div className="message-wrapper">
-                        <p className="color-light">
-                          Thanks for your order Michael! Your cookies and cream
-                          protein powder will be shipped out in 24-48 hours.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="msg-time">11:26am</div>
-          </div>
-          <div className="msg-1 msg-5">
-            <div className="flex msg-wrapper">
-              <div className="flex msg-wrapper-lvl-2">
-                <div className="flex main-msg-class">
-                  <div className="flex after-shine">
-                    <div className="flex another-wrapper">
-                      <div className="message-wrapper">
-                        <p className="color-light">
-                          Hey Michael, your 3 bags of cookies and cream protein
-                          powder are on the way. Shipping by FedEx:
-                          1Z99999999999
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="msg-time">11:26am</div>
-          </div>
           <div className={"mobile-img"}>
+            <div className="msg-1">
+              <div className="msg-wrapper">
+                <div className="flex msg-wrapper-lvl-2">
+                  <div className="flex main-msg-class">
+                    <div className="flex after-shine">
+                      <div className="flex another-wrapper">
+                        <div className="message-wrapper">
+                          <p className="color-light">
+                            Hey Michael! Our limited edition cookies cream
+                            protein powder just dropped and is available
+                            exclusively to our text subscribers for $34.Reply
+                            with the # of bags to place your order! (1,2,3,etc)
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="msg-time">11:26am</div>
+            </div>
+            {/*  message 2*/}
+            <div className="msg-2">
+              <div className="msg-2_1">
+                <div className="msg-2_2">
+                  <div className="msg_3664">
+                    <div className="msg2_3674">
+                      <div className="msg2_3680">
+                        <div className="msg2_3686">
+                          <p className="msg2_3694">
+                            <span className="_label87_2g1j2_3709">
+                              I`ll take 3 bags
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="msg-time">11:26am</div>
+            </div>
+            <div className="flex msg-1 msg-4">
+              <div className="flex msg-wrapper">
+                <div className="flex msg-wrapper-lvl-2">
+                  <div className="flex main-msg-class">
+                    <div className="flex after-shine">
+                      <div className="flex another-wrapper">
+                        <div className="message-wrapper">
+                          <p className="color-light">
+                            Thanks for your order Michael! Your cookies and
+                            cream protein powder will be shipped out in 24-48
+                            hours.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="msg-time">11:26am</div>
+            </div>
+            <div className="msg-1 msg-5">
+              <div className="flex msg-wrapper">
+                <div className="flex msg-wrapper-lvl-2">
+                  <div className="flex main-msg-class">
+                    <div className="flex after-shine">
+                      <div className="flex another-wrapper">
+                        <div className="message-wrapper">
+                          <p className="color-light">
+                            Hey Michael, your 3 bags of cookies and cream
+                            protein powder are on the way. Shipping by FedEx:
+                            1Z99999999999
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="msg-time">11:26am</div>
+            </div>
             <div className="mobile-notch">
               <svg
                 preserveAspectRatio="none"
