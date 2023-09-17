@@ -27,8 +27,8 @@ const Homepage = () => {
           </p>
           <div className={"meta-text mt-6"}>
             <p className={"color-light"}>
-              The #1 text-to-buy application for D2C brands who want to drive
-              more revenue, increase order frequency and AOV.
+              The #1 text-to-buy application for B2C brands who want to drive
+              more revenue, increase order frequency, and AOV
             </p>
           </div>
         </div>
@@ -46,8 +46,8 @@ const Homepage = () => {
 
           <div className={"meta-text mt-10"}>
             <p className={"color-light"}>
-              The #1 text-to-buy application for D2C brands who want to drive
-              more revenue, increase order frequency and AOV.
+              The #1 text-to-buy application for B2C brands who want to drive
+              more revenue, increase order frequency, and AOV
             </p>
             <p className={"color-light mt-1"}></p>
           </div>
@@ -70,7 +70,7 @@ const Homepage = () => {
                 <p className={"color-primary head-text"}>
                   Be one of the{" "}
                   <i className={"color-secondary"}>
-                    first brands who makes it is
+                    first brands that make it easy
                   </i>{" "}
                   to buy with
                   <i> SMS</i>
@@ -123,7 +123,7 @@ const Homepage = () => {
             <p className={"color-light"}>
               Discover the intuitive and user-friendly power of Senderly, with
               its Google-like search interface. Experience the ease of typing a
-              question and obtaining a comprehensive,customized report tailored
+              question and obtaining a comprehensive, customized report tailored
               just for you
             </p>
           </div>
@@ -142,7 +142,7 @@ const Homepage = () => {
             <p className={"color-light"}>
               Discover the intuitive and user-friendly power of Senderly, with
               its Google-like search interface. Experience the ease of typing a
-              question and obtaining a comprehensive,customized report tailored
+              question and obtaining a comprehensive, customized report tailored
               just for you
             </p>
           </div>
